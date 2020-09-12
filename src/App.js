@@ -26,7 +26,7 @@ function App() {
     async function handleClick(event) {
       const response = await fetch(`https://corona-api.com/countries/${event.target.value}`
       ).then((response) => { return response; }).then((body) => { return body.json(); })
-      setDados(response); 
+      setDados(response);
  
     }
 
