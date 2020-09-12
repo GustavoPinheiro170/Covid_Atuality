@@ -38,7 +38,7 @@ function App() {
       <select id='options'>
         <option value='br'>SELECIONE UM PAÍS</option>
       </select>
-        {dados && <Informacoes dados={dados} />}
+        {dados && <Informacoes  dados={dados} />}
     </div>
   );
 
