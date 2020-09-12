@@ -19,7 +19,7 @@ function App() {
 
     //inicio o fetch com o evento de click buscando pelo código do país 
     const opt = document.getElementById('options');
-    opt.addEventListener('click', handleClick);
+    opt.addEventListener('click', handleClick); 
     NamesSelect();
     
     //função que captura o value do click e coloca no fetch para buscar as informações do país 
