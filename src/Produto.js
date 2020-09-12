@@ -4,7 +4,7 @@ import './app.css';
 const Informacoes = ({ dados }) => {
 
     const latest_data = (dados.data.latest_data);
-    const today = (dados.data.today);
+    const today = (dados.data.today); 
 
 
     return (
